@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>EnContRA Metadata Extraction API</name>
+    <packaging>jar</packaging>
+    <groupId>pt.inevo.encontra</groupId>
+    <artifactId>encontra-metadata-api</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>pt.inevo.encontra</groupId>
+        <artifactId>encontra-metadata</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <!-- Apache Tika dependencies -->
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
+            <version>0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-parsers</artifactId>
+            <version>0.9</version>
+        </dependency>
+    </dependencies>
+
+</project>
+
