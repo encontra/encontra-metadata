@@ -15,7 +15,7 @@ public interface XMPidq {
     /**
      * xmpidq specific namespace prefix.
      */
-    public static String NS_PREFIX = "xmpidq:";
+    public static String NS_PREFIX = "xmpidq" + XMPUtil.XMP_SEPARATOR;
 
     /**
      * A qualifier providing the name of the formal

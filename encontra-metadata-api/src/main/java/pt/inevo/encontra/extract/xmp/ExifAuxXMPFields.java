@@ -16,7 +16,7 @@ public interface ExifAuxXMPFields {
     /**
      * XMP Exif aux specific namespace prefix.
      */
-    public static String NS_PREFIX = "aux:";
+    public static String NS_PREFIX = "aux" + XMPUtil.XMP_SEPARATOR;
 
     public static String LENS = NS_PREFIX + "Lens";
 

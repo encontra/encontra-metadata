@@ -19,7 +19,7 @@ public interface XMPFields {
     /**
      * XMP specific namespace prefix.
      */
-    public static String NS_PREFIX = "xmp:";
+    public static String NS_PREFIX = "xmp" + XMPUtil.XMP_SEPARATOR;
 
     /**
      * The base URL for relative URLs in the document content.

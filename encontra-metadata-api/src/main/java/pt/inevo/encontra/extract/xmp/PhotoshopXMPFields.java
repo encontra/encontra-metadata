@@ -19,7 +19,7 @@ public interface PhotoshopXMPFields {
     /**
      * Photoshop specific namespace for Adobe XMP.
      */
-    public static String NS_PREFIX = "photoshop:";
+    public static String NS_PREFIX = "photoshop" + XMPUtil.XMP_SEPARATOR;
 
     /**
      * The unique identifier of a document.

@@ -24,7 +24,7 @@ public interface ExifXMPFields {
     /**
      * XMP Exif specific namespace prefix.
      */
-    public static String NS_PREFIX = "exif:";
+    public static String NS_PREFIX = "exif" + XMPUtil.XMP_SEPARATOR;
 
     public static String APERTURE_VALUE = NS_PREFIX + "ApertureValue";
 

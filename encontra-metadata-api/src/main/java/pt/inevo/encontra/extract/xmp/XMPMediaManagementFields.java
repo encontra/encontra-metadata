@@ -27,7 +27,7 @@ public interface XMPMediaManagementFields {
     /**
      * XMP Media Management specific namespace prefix.
      */
-    public static String NS_PREFIX = "xmpMM:";
+    public static String NS_PREFIX = "xmpMM" + XMPUtil.XMP_SEPARATOR;
 
     /**
      * A reference to the resource from which this one is

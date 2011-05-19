@@ -20,7 +20,7 @@ public interface DublinCoreXMPFields {
     /**
      * Dublin Core specific namespace for Adobe XMP.
      */
-    public static String NS_PREFIX = "dc:";
+    public static String NS_PREFIX = "dc" + XMPUtil.XMP_SEPARATOR;
 
     /**
      * DCMI definition: An entity responsible for making contributions to the

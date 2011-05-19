@@ -20,7 +20,7 @@ public interface XMPRightsFields {
     /**
      * XMP Rights specific namespace prefix.
      */
-    public static String NS_PREFIX = "xmpRights:";
+    public static String NS_PREFIX = "xmpRights" + XMPUtil.XMP_SEPARATOR;
 
     /**
      * A web URL for a rights management certificate.

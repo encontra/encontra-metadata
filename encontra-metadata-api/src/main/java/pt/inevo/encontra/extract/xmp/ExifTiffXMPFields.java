@@ -16,7 +16,7 @@ public interface ExifTiffXMPFields {
     /**
      * XMP Tiff exif specific namespace prefix.
      */
-    public static String NS_PREFIX = "tiff:";
+    public static String NS_PREFIX = "tiff" + XMPUtil.XMP_SEPARATOR;
 
     public static String ARTIST = NS_PREFIX + "Artist";
 
