@@ -52,7 +52,7 @@ public class PSDMetadataExtractorTest extends TestCase {
         Metadata metadata = new Metadata();
         metadataExtractor.extractMetadata(input, metadata);
 
-        System.out.println("\nMetadata Extracted from file: ");
+        System.out.println("Metadata Extracted from file\n");
 
         //Dublin Core properties
         System.out.println("Format: " + getValue(metadata, DublinCoreXMPFields.FORMAT));
@@ -99,6 +99,7 @@ public class PSDMetadataExtractorTest extends TestCase {
         System.out.println("X Resolution: " + getValue(metadata, ExifTiffXMPFields.X_RESOLUTION));
         System.out.println("Orientation: " + getValue(metadata, ExifTiffXMPFields.ORIENTATION));
         System.out.println("Pixel X Dimension: " + getValue(metadata, ExifXMPFields.PIXEL_X_DIMENSION));
+        System.out.println("Pixel Y Dimension: " + getValue(metadata, ExifXMPFields.PIXEL_Y_DIMENSION));
 
         System.out.println();
 
