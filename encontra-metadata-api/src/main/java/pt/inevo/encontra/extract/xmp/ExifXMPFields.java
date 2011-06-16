@@ -7,7 +7,7 @@ import com.adobe.xmp.XMPConst;
  * image stream, or that are of little use without access to the image stream. A general XMP principle is that XMP
  * metadata should have value in and of itself, separate from the primary file content. The omitted properties include:
  * StripOffsets, RowsPerStrip, StripByteCounts, JPEGInterchangeFormat, and JPEGInterchangeFormatLength
- * Properties beginning with “GPS” are GPS properties that are also used by DIG-35 and are part of the JPEG-2000
+ * Properties beginning with "GPS" are GPS properties that are also used by DIG-35 and are part of the JPEG-2000
  * standard.
  * The namespace name is http://ns.adobe.com/exif/1.0/
  * The preferred namespace prefix is exif

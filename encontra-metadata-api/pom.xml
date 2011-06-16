@@ -12,8 +12,9 @@
         <groupId>pt.inevo.encontra</groupId>
         <artifactId>encontra-metadata</artifactId>
         <version>1.0-SNAPSHOT</version>
+		<relativePath>..</relativePath>
     </parent>
-
+	
     <dependencies>
         <!-- Apache Tika dependencies -->
         <dependency>
@@ -25,6 +26,11 @@
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-parsers</artifactId>
             <version>0.9</version>
+        </dependency>
+		<dependency>
+            <groupId>com.adobe.xmp</groupId>
+            <artifactId>xmp-core</artifactId>
+            <version>5.1.2</version>
         </dependency>
     </dependencies>
 
