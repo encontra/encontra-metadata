@@ -1,16 +1,11 @@
 package pt.inevo.encontra.extract;
 
-import com.adobe.xmp.*;
-import com.adobe.xmp.options.IteratorOptions;
-import com.adobe.xmp.options.PropertyOptions;
-import com.adobe.xmp.properties.XMPProperty;
-import com.adobe.xmp.properties.XMPPropertyInfo;
+import com.adobe.xmp.XMPUtils;
 import org.apache.tika.parser.image.xmp.XMPPacketScanner;
 import psd.Psd;
 import pt.inevo.encontra.extract.xmp.ExifTiffXMPFields;
 import pt.inevo.encontra.extract.xmp.XMPExtractor;
 import pt.inevo.encontra.extract.xmp.XMPFields;
-import sun.misc.BASE64Encoder;
 
 import javax.imageio.ImageIO;
 import java.io.*;

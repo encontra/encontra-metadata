@@ -18,6 +18,7 @@
      <modules>
          <module>encontra-metadata-api</module>
 		 <module>encontra-metadata-psd</module>
+		 <module>encontra-metadata-core</module>
      </modules>
 
 </project>

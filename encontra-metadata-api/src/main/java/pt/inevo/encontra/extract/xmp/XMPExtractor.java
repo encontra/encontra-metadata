@@ -38,7 +38,7 @@ public class XMPExtractor implements MetadataExtractor {
                     int numArrayItems = meta.countArrayItems(propInfo.getNamespace(), propInfo.getPath());
 
                     //set the number of elements in the array as a metadata property
-                    metadata.set(propInfo.getPath(), Integer.toString(numArrayItems));
+//                    metadata.set(propInfo.getPath(), Integer.toString(numArrayItems));
 
                     //XMP arrays index starts in 1, NOT 0!
                     String value = "";
