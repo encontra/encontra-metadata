@@ -18,12 +18,10 @@
         <dependency>
             <groupId>pt.inevo.encontra</groupId>
             <artifactId>encontra-metadata-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
 		<dependency>
             <groupId>pt.inevo.encontra</groupId>
             <artifactId>encontra-metadata-psd</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
